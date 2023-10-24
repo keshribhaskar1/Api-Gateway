@@ -13,12 +13,12 @@ spring:
           uri:
             http://localhost:8080/
           predicates:
-            - Path=/productApi/**
+            - Path=/kartApi/**
         - id: customerms
           uri:
             http://localhost:8081/
           predicates:
-            - Path=/productApi/**
+            - Path=/customers/**
 
 eureka:
   client:
