@@ -27,3 +27,7 @@ eureka:
 
 server:
   port: 8084
+
+okta:
+  oauth2:
+    issuer: https://dev-09676956.okta.com/oauth2/default
